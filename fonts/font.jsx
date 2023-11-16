@@ -9,6 +9,8 @@ export const jetBrainsMono = JetBrains_Mono({
     '400',
     '700',
     '800',
-  ]
+  ],
+  display: 'swap',
+  preload: true,
 })
 

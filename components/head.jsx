@@ -11,7 +11,7 @@ export default function Head({ className }){
         <h2 className="font-bold text-4xl bg-text-gradient bg-clip-text text-transparent inline-block mb-4">Fullstack Web Developer</h2>
         <h3 className="font-extralight text-xl ml-8">React.js, Next.js, Node.js, Javascript, Java, MSQL Server</h3>
       </div>
-      <div className="absolute -top-4 -end-1 p-0 select-none">
+      <div className="absolute -top-5 -end-1 p-0 select-none">
         <Image
           src={'/img/imagen-resume-web.png'}
           width={370}

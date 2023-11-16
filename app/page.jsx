@@ -4,7 +4,7 @@ import Head from "@/components/head"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center bg-custom-almost-black">
+    <main className="flex min-h-screen flex-col items-center bg-custom-almost-black subpixel-antialiased">
       <NavBar></NavBar>
       <section className='container max-w-[1226px] z-40'>
         <Head className='my-14' ></Head>
@@ -13,7 +13,6 @@ export default function Home() {
       <div className="absolute top-0 left-0 z-0 w-screen h-[966px] bg-local bg-[url('/img/bg_home.png')]">
         <div className='w-full h-full  bg-gradient-linear-bg-home z-1'></div>
       </div>
-      
     </main>
   )
 }
