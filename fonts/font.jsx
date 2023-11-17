@@ -1,5 +1,6 @@
 import { 
-  JetBrains_Mono 
+  JetBrains_Mono,
+  Abel
 } from 'next/font/google'
 
 export const jetBrainsMono = JetBrains_Mono({
@@ -9,6 +10,19 @@ export const jetBrainsMono = JetBrains_Mono({
     '400',
     '700',
     '800',
+  ],
+  style: [
+    'italic',
+    'normal'
+  ],
+  display: 'swap',
+  preload: true,
+})
+
+export const abel = Abel({
+  subsets: ['latin'],
+  weight: [ 
+    '400'
   ],
   display: 'swap',
   preload: true,
