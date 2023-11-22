@@ -1,8 +1,10 @@
 import NavBar from "@/components/navbar"
 import Head from "@/components/head"
 import Article from "@/components/article"
-import { DocumentArrowDownIcon } from "@heroicons/react/24/outline"
-import { jetBrainsMono } from "@/fonts/font"
+import { LuFileDown } from "react-icons/lu"
+import ButtonOutline from "@/components/buttonOutline"
+
+import { HiOutlineDocumentDownload } from "react-icons/hi"
 
 export default function Home() {
   return (
@@ -10,10 +12,12 @@ export default function Home() {
       <NavBar></NavBar>
       <section className='container max-w-[1226px] z-40'>
         <Head className='mt-14 mb-40' ></Head>
-        <section className="grid grid-cols-2">
-          <Article className=""></Article>
-          <div className="bg-red-500 flex flex-col justify-center">
-            <button className={`${ jetBrainsMono.className } border-2 rounded-lg text-xl w-3 h-6`}> <DocumentArrowDownIcon className=""></DocumentArrowDownIcon> Resume</button>
+        <section className="grid grid-cols-3 gap-x-8">
+          <Article className="col-span-2"></Article>
+          <div className="flex flex-col justify-center">
+            <ButtonOutline className='self-center text-4xl'>
+              <HiOutlineDocumentDownload size='2.25rem' fontWeight='700' className="mr-5"/> Resume
+            </ButtonOutline>
           </div>
         </section>
       </section>
