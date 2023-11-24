@@ -10,7 +10,7 @@ export default function NavBar() {
       <div className='w-[1226px] flex flex-row justify-between items-center'>
         <Logo></Logo>
         <div>
-          <ButtonOutline className='self-center h-full border-2 font-light font-extralight pl-1 py-1 pr-4'>
+          <ButtonOutline className='self-center h-full box-border border-2 font-light font-extralight pl-1 py-1 pr-4'>
             <span className='mr-1'><FaGithub size={'2.1em'} /></span>/lucas-aquino
           </ButtonOutline>
         </div>

@@ -15,7 +15,7 @@ export default function Home() {
         <section className="grid grid-cols-3 gap-x-8">
           <Article className="col-span-2"></Article>
           <div className="flex flex-col justify-center">
-            <ButtonOutline className='self-center font-bold border-4 text-4xl px-10 py-4'>
+            <ButtonOutline className='self-center font-bold border-4 text-4xl pl-10 pr-12 py-4'>
               <HiOutlineDocumentDownload size='2.25rem' fontWeight='700' className="mr-5"/> Resume
             </ButtonOutline>
           </div>
