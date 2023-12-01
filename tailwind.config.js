@@ -16,6 +16,7 @@ module.exports = {
         'text-gradient': 'linear-gradient(262deg, #89A3FF -16.98%, #4FF39B 206.62%)',
         'saturated-gradient': 'linear-gradient(262deg, #00d5ff -16.98%, #00ff95 206.62%)',
         'article-gradient': 'linear-gradient(180deg, rgba(13, 22, 35, 0.00) 0%, #0D1623 23.44%)',
+        'border-gradient': 'radial-gradient(93.25% 104.46% at 33.38% 0%, rgba(36, 55, 84, 0.00) 49.48%, #243754 100%)',
       },
       colors: {
         'custom': {

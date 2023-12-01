@@ -11,11 +11,11 @@ import { HiOutlineDocumentDownload } from "react-icons/hi"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen w-100 flex-col items-center bg-custom-almost-black subpixel-antialiased bg-blue-500">
+    <main className="flex min-h-screen w-100 flex-col items-center bg-custom-almost-black subpixel-antialiased">
       <NavBar></NavBar>
-      <section className={`px-10 w-screen xl:max-w-[1226px] z-40 xl:p-0`}>
+      <section className={`px-2 w-screen xl:max-w-[1226px] z-40 xl:p-0`}>
         <Head className='mt-14 mb-40' ></Head>
-        <section className="grid grid-row-2 gap-y-8 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-0">
+        <section className="transition-all ease-out duration-300 grid grid-row-2 gap-y-8 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-0">
           <Article className="lg:col-span-2 text-custom-iceberg"></Article>
           <div className="flex flex-col justify-center">
             <ButtonOutline className='transition-all ease-out duration-300 relative self-center font-bold z-40 border-4 text-4xl pl-10 pr-12 py-4 group border-custom-iceberg hover:border-custom-dark-blue-grey text-custom-iceberg backdrop-blur-2xl hover:bg-custom-iceberg/75 bg-blend-saturation hover:pl-8 hover:pr-10'>
