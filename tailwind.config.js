@@ -26,7 +26,7 @@ module.exports = {
           'dark-blue-grey':'#243754',
           'light-green-blue': '#4FF39B',
           'periwinkle-blue': '#89A3FF',
-          'iceberg': '#D8EFFC'
+          'iceberg': '#D8EFFC',
         }
       }
     },
