@@ -10,7 +10,7 @@ import GradientText from "@/components/gradientText"
 import ProyectList from "@/components/ProyectList"
 import Link from "next/link"
 import Tooltip from "@/components/tooltips"
-
+import Footer from "@/components/footer"
 
 
 export default function Home() {
@@ -42,6 +42,7 @@ export default function Home() {
           <ProyectList className="mt-8 grid md:grid-cols-2 gap-x-8 gap-y-10 px-5 md:px-3 xl:px-0"></ProyectList>
         </section>
       </section>
+      <Footer></Footer>
       <div className='fixed top-0 left-0 z-30 w-full h-screen bg-gradient-radial-home  backdrop-blur-sm'></div>
       <div className="fixed top-0 left-0 z-0 bg-cover bg-no-repeat bg-center w-full h-screen bg-scroll bg-[url('/img/bg_home.avif')]">
         <div className='w-full h-full bg-gradient-linear-bg-home z-1'></div>

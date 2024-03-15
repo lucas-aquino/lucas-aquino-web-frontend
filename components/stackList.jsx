@@ -2,21 +2,22 @@ import Tooltip from "./tooltips"
 import TecIcon from "./tecicon"
 
 
-export default function StackList({ stackList = [] }) {
+export default function StackList({ className, stackList = [] }) {
 
 
   return (
-    <div className="mb-2 flex">
+    <>
       {
         stackList.map((stack, i) =>
           <Tooltip
             className="capitalize"
             tooltipContent={stack}
+            key={i}
           >
             <TecIcon tec={stack}></TecIcon>
           </Tooltip>)
       }
-    </div>
+    </>
   )
 
 }
