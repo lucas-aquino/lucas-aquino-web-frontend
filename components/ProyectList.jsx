@@ -30,17 +30,12 @@ export default function ProyectList ({ className }) {
     <div className={`${className}`}>
       {
         proyectos.map((proyecto, i) => 
-        <Article className='pt-14 pb-8' title={proyecto.title} titleClassName={'text-5xl w-full'} key={i} descClassName={`flex flex-col`}>
-          <div className=" bg-blue-500 grow">
-            <p className="mb-4">{proyecto.desc}</p>
+        <Article className='pt-14 pb-8' title={proyecto.title} titleClassName={'text-5xl w-full'} key={i} bodyClassName={`h-full flex flex-col`}>
+          <p className=" grow">{proyecto.desc}</p>
+          <div className="overflow-hidden rounded-2xl aspect-[16/9] mb-8 ">
+            <img src={proyecto.img} alt="" className="object-cover min-h-full min-w-full"/>
           </div>
-
-          <div className=" grow-0">
-            <div className="overflow-hidden rounded-2xl aspect-[16/9] mb-8 bg-lime-500 ">
-              <img src={proyecto.img} alt="" className="object-cover min-h-full min-w-full"/>
-            </div>
-          </div>
-          <div className="grow-0 mb-2 flex">
+          <div className="mb-2 flex ">
             <StackList stackList={proyecto.stack}></StackList>
           </div>
         </Article>)

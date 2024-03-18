@@ -25,3 +25,21 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+
+.card{
+  display: flex;
+  flex-direction: column;
+}
+.card-body{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
