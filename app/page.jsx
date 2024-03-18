@@ -6,7 +6,6 @@ import ButtonOutline from "@/components/buttonOutline"
 import { jetBrainsMono, abel } from "@/fonts/font"
 
 import { HiOutlineDocumentDownload } from "react-icons/hi"
-import GradientText from "@/components/gradientText"
 import ProyectList from "@/components/ProyectList"
 import Link from "next/link"
 import Tooltip from "@/components/tooltips"

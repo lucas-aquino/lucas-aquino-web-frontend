@@ -13,16 +13,6 @@ const proyectos = [
       'TAILWINDCSS',
     ]
   },
-  {
-    title: 'Proyecto 2',
-    img: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.materialup.com%2Fuploads%2Fa955ad08-03eb-4e8b-bad5-560967829af5%2Fpreview.jpg&f=1&nofb=1&ipt=3c5beb8494393bba1517b0c2fd7adc497db2c44efb4958ba46774de56cd82ecb&ipo=images',
-    desc: 'aliquid.',
-    stack: [
-      'REACT',
-      'NODE',
-      'TAILWINDCSS',
-    ]
-  },
 ]
 
 export default function ProyectList ({ className }) {
