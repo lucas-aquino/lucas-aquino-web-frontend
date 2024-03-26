@@ -20,7 +20,7 @@ export default function Head({ className }){
         </h2>
         <h3 className="transition-all ease-in-out duration-150 font-extralight lg:text-lg md:text-base sm:text-sm text-xs ml-8">React.js, Next.js, Node.js, Javascript, Java, MSQL Server</h3>
       </div>
-      <div className="absolute inset-y-0 right-5 xl:right-0 mx-0 my-auto size-[10rem] md:size-[16rem] lg:size-[18rem] xl:size-[23rem] p-0 select-none rounded-full backdrop-blur-md backdrop-contrast-100 backdrop-brightness-200 border border-custom-blue-zodiac aspect-square overflow-hidden z-10">
+      <div className="absolute inset-y-0 right-5 xl:right-0 mx-0 my-auto size-[10rem] md:size-[16rem] lg:size-[18rem] xl:size-[23rem] p-0 select-none rounded-full backdrop-blur-md backdrop-brightness-200 backdrop-contrast-75 aspect-square overflow-hidden z-10">
         <img
           src={'/img/profile.avif'}
         ></img>
