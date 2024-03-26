@@ -10,7 +10,6 @@ export default function StackList({ className, stackList = [] }) {
       {
         stackList.map((stack, i) =>
           <Tooltip
-            className="capitalize"
             tooltipContent={stack}
             key={i}
           >

@@ -21,11 +21,11 @@ export default function ProyectList ({ className }) {
       {
         proyectos.map((proyecto, i) => 
         <Article className='pt-14 pb-8' title={proyecto.title} titleClassName={'text-5xl w-full'} key={i} bodyClassName={`h-full flex flex-col`}>
-          <p className=" grow">{proyecto.desc}</p>
-          <div className="overflow-hidden rounded-2xl aspect-[16/9] mb-8 ">
+          <p className="grow mb-6">{proyecto.desc}</p>
+          <div className="overflow-hidden rounded-2xl aspect-[16/9] mb-6">
             <img src={proyecto.img} alt="" className="object-cover min-h-full min-w-full"/>
           </div>
-          <div className="mb-2 flex ">
+          <div className="flex">
             <StackList stackList={proyecto.stack}></StackList>
           </div>
         </Article>)

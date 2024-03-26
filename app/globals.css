@@ -40,6 +40,10 @@ body {
 
 
 
-
+.center-absolute {
+  position: absolute;
+  left: -50%;
+  translate: transform(100%);
+}
 
 
