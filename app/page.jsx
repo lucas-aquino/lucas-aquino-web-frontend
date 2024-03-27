@@ -28,13 +28,13 @@ export default function Home() {
                   <div className="transition-all ease-out duration-500 absolute boton-2 left-0 z-0 h-full w-full group-hover:bg-saturated-gradient group-hover:scale-125 rounded-full blur-2xl opacity-50"></div>
                 </ButtonOutline>
             </Link>
-          </div>
+          </div>  
         </section>
         <section className="mt-8 mb-20">
-          <h2 className={`${ jetBrainsMono.className } text-custom-iceberg transition-all ease-in-out duration-150 font-extrabold text-7xl mb-16 select-none`}>{
+          <h2 className={`${ jetBrainsMono.className } text-custom-iceberg transition-all ease-in-out duration-150 font-extrabold text-5xl xl:text-7xl mb-16 select-none`}>{
             '</>Proyectos'
           }</h2>
-          <ProyectList className="mt-8 grid md:grid-cols-2 gap-x-8 gap-y-10 px-5 md:px-3 xl:px-0"></ProyectList>
+          <ProyectList className="mt-8 grid md:grid-cols-2 gap-x-8 gap-y-10 "></ProyectList>
         </section>
       </section>
       <Footer></Footer>

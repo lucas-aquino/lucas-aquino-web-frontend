@@ -2,6 +2,8 @@
 import Article from "./article"
 import StackList from "./stackList"
 
+import { archivo } from "@/fonts/font"
+
 const proyectos = [
   {
     title: 'Ecommerce',
@@ -20,8 +22,8 @@ export default function ProyectList ({ className }) {
     <div className={`${className}`}>
       {
         proyectos.map((proyecto, i) => 
-        <Article className='pt-14 pb-8' title={proyecto.title} titleClassName={'text-5xl w-full'} key={i} bodyClassName={`h-full flex flex-col`}>
-          <p className="grow mb-6">{proyecto.desc}</p>
+        <Article className='pt-14 pb-8' title={proyecto.title} titleClassName={'text-5xl w-full'} key={i} bodyClassName={`h-full flex flex-col text-custom-iceberg ${ archivo.className }`}>
+          <p className={`grow mb-6`}>{proyecto.desc}</p>
           <div className="overflow-hidden rounded-2xl aspect-[16/9] mb-6">
             <img src={proyecto.img} alt="" className="object-cover min-h-full min-w-full"/>
           </div>
